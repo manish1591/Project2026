@@ -11,7 +11,7 @@ COPY app/ .
 # ---------- Stage 2: Production ----------
 FROM node:20-alpine3.20
 
-WORKDIR /app
+WORKDIR /production
 
 RUN apk update && apk upgrade
 
